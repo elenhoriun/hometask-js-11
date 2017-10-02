@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Start</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="ba-map">
+		<div class="ba-map__info">
+			<form id="ba_form">
+				<input id="ba_address" type="text" value="Poltava, Mira 36">
+				<input id="ba_button" type="button" value="Search" >
+			</form>
+		</div>
+		<div id="ba_map">
+			
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkdyl2wCNRocVw80V5cnrGMglEFR0Me1U"
+    async defer></script>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
